@@ -1,0 +1,12 @@
+{
+  "_comentario": "Grafo CONEXO: existe un camino entre cualquier par de nodos.",
+  "triples": [
+    { "s": "A", "p": "conoce", "o": "B" },
+    { "s": "B", "p": "conoce", "o": "C" },
+    { "s": "C", "p": "conoce", "o": "D" },
+    { "s": "D", "p": "conoce", "o": "E" },
+    { "s": "E", "p": "conoce", "o": "F" },
+    { "s": "A", "p": "conoce", "o": "C" },
+    { "s": "B", "p": "conoce", "o": "F" }
+  ]
+}
