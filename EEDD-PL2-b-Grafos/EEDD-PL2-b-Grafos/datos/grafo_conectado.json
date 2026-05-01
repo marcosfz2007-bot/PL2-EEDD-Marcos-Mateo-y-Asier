@@ -1,0 +1,32 @@
+{
+  "tipos": [
+    "entidad"
+  ],
+  "tripletas": [
+    {
+      "s": "entidad:A",
+      "p": "relacion",
+      "o": "entidad:B"
+    },
+    {
+      "s": "entidad:B",
+      "p": "relacion",
+      "o": "entidad:C"
+    },
+    {
+      "s": "entidad:C",
+      "p": "relacion",
+      "o": "entidad:D"
+    },
+    {
+      "s": "entidad:D",
+      "p": "relacion",
+      "o": "entidad:E"
+    },
+    {
+      "s": "entidad:A",
+      "p": "atajo",
+      "o": "entidad:C"
+    }
+  ]
+}

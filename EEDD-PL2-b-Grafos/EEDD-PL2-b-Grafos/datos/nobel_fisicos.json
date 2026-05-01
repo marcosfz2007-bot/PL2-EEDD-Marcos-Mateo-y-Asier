@@ -1,0 +1,92 @@
+{
+  "tipos": [
+    "tipo",
+    "persona",
+    "premio",
+    "lugar",
+    "area",
+    "literal"
+  ],
+  "tripletas": [
+    {
+      "s": "persona:Albert Einstein",
+      "p": "premio",
+      "o": "premio:Nobel"
+    },
+    {
+      "s": "persona:Albert Einstein",
+      "p": "area",
+      "o": "area:Fisica"
+    },
+    {
+      "s": "persona:Albert Einstein",
+      "p": "nace_en",
+      "o": "lugar:Ulm"
+    },
+    {
+      "s": "persona:Albert Einstein",
+      "p": "anio_premio",
+      "o": "1921"
+    },
+    {
+      "s": "persona:Fisico Famoso de Ulm",
+      "p": "premio",
+      "o": "premio:Nobel"
+    },
+    {
+      "s": "persona:Fisico Famoso de Ulm",
+      "p": "area",
+      "o": "area:Fisica"
+    },
+    {
+      "s": "persona:Fisico Famoso de Ulm",
+      "p": "nace_en",
+      "o": "lugar:Ulm"
+    },
+    {
+      "s": "persona:Fisico Famoso de Ulm",
+      "p": "anio_premio",
+      "o": "1930"
+    },
+    {
+      "s": "persona:Marie Curie",
+      "p": "premio",
+      "o": "premio:Nobel"
+    },
+    {
+      "s": "persona:Marie Curie",
+      "p": "area",
+      "o": "area:Fisica"
+    },
+    {
+      "s": "persona:Marie Curie",
+      "p": "nace_en",
+      "o": "lugar:Varsovia"
+    },
+    {
+      "s": "persona:Marie Curie",
+      "p": "anio_premio",
+      "o": "1903"
+    },
+    {
+      "s": "persona:Gabriel Garcia Marquez",
+      "p": "premio",
+      "o": "premio:Nobel"
+    },
+    {
+      "s": "persona:Gabriel Garcia Marquez",
+      "p": "area",
+      "o": "area:Literatura"
+    },
+    {
+      "s": "persona:Gabriel Garcia Marquez",
+      "p": "nace_en",
+      "o": "lugar:Aracataca"
+    },
+    {
+      "s": "persona:Gabriel Garcia Marquez",
+      "p": "anio_premio",
+      "o": "1982"
+    }
+  ]
+}
