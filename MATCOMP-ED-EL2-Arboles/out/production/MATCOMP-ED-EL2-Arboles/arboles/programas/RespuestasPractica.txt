@@ -1,0 +1,60 @@
+EL2 - Parte de Árboles
+
+
+1. Explique las diferencias (si las ha habido) de los resultados obtenidos entre los dos programás de prueba.
+
+Respuestá:
+Si hay diferencias.
+
+En el primer programa, los valores se insertan en orden creciente:
+
+0, 1, 2, ..., 128
+
+Como el árbol binario de búsqueda no está balanceado, cada nuevo valor es mayor
+que los anteriores y se inserta siempre por la derecha. El árbol queda degenerado,
+con una forma parecida a una lista enlazada. Por eso su altura es 128.
+
+En el segúndo programa, los mismos valores se insertan en orden aleatorio y sin
+repetir. Eso hace que algunos valores queden en el subárbol izquierdo y otros en
+el derecho. El árbol no tiene por qué ser perfecto, pero normalmente queda menos
+degenerado. Con la semilla fija usada en el programa, la altura es 18.
+
+No cambian:
+
+- la suma total, porque en ambos programás se insertan los mismos números;
+- el recorrido central como secuencia ordenada, porque un ABB devuelve los datos
+  de menor a mayor al recorrerlo en inorden.
+
+Si cambian o pueden cambiar:
+
+- la raíz;
+- la forma del árbol;
+- la altura;
+- el camino hasta 110;
+- el preorden;
+- el postorden.
+
+
+2. ¿Que sucede con los resultados si ejecuta los programás de prueba varias veces?
+
+Respuestá:
+En el primer programa no cambia nada, porque el orden de inserción siempre es el
+mismo: 0, 1, 2, ..., 128.
+
+En el segúndo programa tampoco cambia nada mientras se mantenga la misma semilla
+aleatoria. La semilla hace que el orden barajado sea reproducible.
+
+Si se cambia la semilla o se usa aleatoriedad sin semilla fija, pueden cambiar:
+
+- la raíz;
+- la forma del árbol;
+- la altura;
+- el camino hasta 110;
+- el preorden;
+- el postorden.
+
+No cambian:
+
+- la suma total, porque los números insertados siguen siendo los mismos;
+- el recorrido central como lista ordenada de 0 a 128.
+
